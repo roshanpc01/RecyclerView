@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+  android:orientation="vertical"
+    android:id="@+id/ll"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD Member"
+        android:id="@+id/text"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_gravity="end"
+android:text="ADD"
+        android:id="@+id/button"/>
+
+
+</LinearLayout>

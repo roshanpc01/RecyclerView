@@ -9,6 +9,11 @@ public class ModelCostomer {
         this.number = number;
         this.img = img;
     }
+    public ModelCostomer(String name, String number) {
+        this.name = name;
+        this.number = number;
+        this.img = img;
+    }
 
     public String getName() {
         return name;
